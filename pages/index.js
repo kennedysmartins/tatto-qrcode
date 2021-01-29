@@ -5,6 +5,6 @@ componentDidMount(){
     if(pathname == '/' ){
        Router.push('https://www.youtube.com/watch?v=xI9kjXRfhmo')
     }
-}
+};
 
 export default componentDidMount
