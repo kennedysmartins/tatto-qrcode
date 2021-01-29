@@ -1,5 +1,5 @@
 function Home() {
-    location.replace("https://www.youtube.com/watch?v=xI9kjXRfhmo")
+    window.location.replace("https://www.youtube.com/watch?v=xI9kjXRfhmo")
     return
 }
 
