@@ -1,10 +1,27 @@
 import Router from 'next/router'
 
-componentDidMount(){
-    const {pathname} = Router
-    if(pathname == '/' ){
-       Router.push('https://www.youtube.com/watch?v=xI9kjXRfhmo')
-    }
-};
+import { useEffect, useState} from "react";
+import { useRouter } from "next/router";
+import Link from "next/link";
 
-export default componentDidMount
+export default function Home(){
+    return (
+        <div>
+            <Link href="https://google.com.br">
+                <a>Google</a>
+            </Link>
+        </div>
+    )
+}
+
+// componentDidMount(){
+//     const {pathname} = Router
+//     if(pathname == '/' ){
+//        Router.push('https://www.google.com')
+//     }
+// }
+
+// export default componentDidMount
+
+
+
