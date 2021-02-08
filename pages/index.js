@@ -1,12 +1,14 @@
-import { useEffect, useState} from "react";
-import { useRouter } from "next/router";
-import Link from "next/link";
+import { useEffect} from "react";
+import { useRouter} from "next/router"
+
 
 export default function Home(){
     const router = useRouter();
-    if(true) {
+    useEffect(() => {
+        console.log('Redirect')
         router.push('https://google.com.br')
-    }
+    }, [])
+
 }
 
 // componentDidMount(){
