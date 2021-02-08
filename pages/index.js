@@ -3,9 +3,10 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 
 export default function Home(){
-    const {pathname} = useRouter()
+    const router = useRouter();
+    const {pathname} = router()
     if(pathname == '/') {
-        useRouter.push('https://google.com.br')
+        router.push('https://google.com.br')
     }
 }
 
