@@ -4,8 +4,7 @@ import Link from "next/link";
 
 export default function Home(){
     const router = useRouter();
-    const {pathname} = router()
-    if(pathname == '/') {
+    if(true) {
         router.push('https://google.com.br')
     }
 }
