@@ -1,2 +1,2 @@
 import redirect from 'nextjs-redirect'
-export default redirect('https://youtu.be/hnQdHHaQobI')
+export default redirect('https://smartofficern.com.br/voucher/')
