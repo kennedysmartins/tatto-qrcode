@@ -1,2 +1,2 @@
 import redirect from 'nextjs-redirect'
-export default redirect('https://theuselessweb.com/')
+export default redirect('http://trashloop.com/')
