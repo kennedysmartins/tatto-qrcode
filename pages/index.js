@@ -1,2 +1,2 @@
 import redirect from 'nextjs-redirect'
-export default redirect('https://zoomquilt.org/')
+export default redirect('http://pix.tecker.com.br/')
