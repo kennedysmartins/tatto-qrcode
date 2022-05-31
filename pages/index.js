@@ -1,6 +1,6 @@
 import redirect from 'nextjs-redirect'
 
-//export default redirect('https://youtu.be/x-ruCFtzF08')
+export default redirect('https://youtu.be/x-ruCFtzF08')
 
 
 //export default redirect('https://youtu.be/tRRMhN3PqbQ')
