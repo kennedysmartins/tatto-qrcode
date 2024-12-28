@@ -1,7 +1,7 @@
 import redirect from 'nextjs-redirect'
 
-//export default redirect('https://youtu.be/xI9kjXRfhmo?si=EzJWFJSuoajjKxHs')  //Bebado cantando inglês
-export default redirect('https://youtu.be/x-ruCFtzF08') // Peixe
+export default redirect('https://youtu.be/xI9kjXRfhmo?si=EzJWFJSuoajjKxHs')  //Bebado cantando inglês
+//export default redirect('https://youtu.be/x-ruCFtzF08') // Peixe
 //export default redirect('https://linktr.ee/kennedysmartins')
 //export default redirect('https://me-contrate.vercel.app/me/kennedysmartins')
 //export default redirect('https://corte84.com.br')
